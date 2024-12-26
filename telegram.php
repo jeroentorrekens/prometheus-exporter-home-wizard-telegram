@@ -3,6 +3,8 @@
 $values = array(
                 "96.1.4"=> array("name"=> "version", "unit"=> "String", "value"=> "", "type"=> "untyped", "help" => "Version of software on meter"),
                 "96.1.1"=> array("name"=> "serial_number", "unit"=> "String", "value"=> "", "type"=> "untyped", "help" => "Serial number of meter"),
+                "96.1.2"=> array("name"=> "ean_code", "unit"=> "String", "value"=> "", "type"=> "untyped", "help" => "EAN code of meter", "multiplication"=>1.0),
+                "94.32.1"=> array("name"=> "grid_configuration", "unit"=> "String", "value"=> "", "type"=> "untyped", "help" => "Grid Configuration: 400 for 3P+N", "multiplication"=>1.0),
                 "1.0.0"=> array("name"=> "current_date", "unit"=> "Date YYMMDDHHMMSS W=winter time, S=summer time", "value"=> "", "type"=> "untyped", "help" => "Current date on the meter"),
                 "1.8.0"=> array("name"=> "power_import_total", "unit"=> "kWh", "value"=> 0, "type"=> "counter", "help" => "Imported/consumed power day+night"),
                 "1.8.1"=> array("name"=> "power_import_day", "unit"=> "kWh", "value"=> 0, "type"=> "counter", "help" => "Imported/consumed power during the day"),
